@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*--Section page 1---*/
+#page1{
+    width: 100%;
+    height: auto;
+    background-image: url( imagess/bg1.jpg );
+   
+    background-position: center;
+    background-size: cover;
+}
+/*--Header Section--*/
+#header {
+    width: 100%;
+    height: 10vh;
+}
+.logo h1{
+    color: black;
+    font-size: 70px;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar a{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.hc h1{
+    padding-top: 15px;
+    font-size: 40px;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.homepage-btn button {
+    margin-top: 20px;
+    margin-left: 70%;
+}
+/*--Member login--*/
+.member-login {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 100px;
+   
+   
+   
+    
+}
+.member-login h3 {
+    padding-top: 10px;
+}
+.login-btn {
+   padding-left: 28%;
+   
+   
+}
+.login-btn button {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+h5 {
+    padding-top: 10px;
+    text-align: center;
+}
+.registration {
+   
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    
+}
+.registration h3 {
+    padding-top: 10px;
+}
+
+/*-Home pAge Section --*/
+#homepage {
+    width: 100%;
+    height: auto;
+    background-image: url(imagess/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.option button{
+    font-size: 40pxpx;
+    margin-top: 20px;
+    
+   
+    
+}
+.foodimg img {
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+
+/*--Menu--*/
+#menu {
+    width: auto;
+    height: auto;
+    background-image: url(imagess/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.menubar img {
+width: 100%;
+height: 250px;
+border: 1px solid black;
+border-radius: 25px;
+}
+/*--Deals--*/
+#deals {
+    width: 100%;
+    height: auto;
+    background-image: url( imagess/bg1.jpg );
+   
+    background-position: center;
+    background-size: cover;
+}
+/*--Cart--*/
+#cart {
+    width: auto;
+    height: auto;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+}
+/*--Payment-*/
+#payment {
+    width: 100%;
+    height: auto;
+    background-image: url(imagess/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.paymentdetails {
+    background-color: white;
+    border: 1px solid white;
+   border-radius: 20px;
+    
+}
+/*--Some Media Quories--*/
+
+@media (max-width:586px) {
+   #header .logo h1 {
+       font-size: 40px;
+   }
+   .app-img a{
+       display: none;
+   }
+   .registration {
+   
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-bottom: 60px;
+    
+}
+   #header .hc h1 {
+       font-size: 30px;
+   }
+   
+   #header .btn1 button{
+       font-size: 10px;
+       text-align: center;
+       margin-right: 40px;
+   }
+   .regitration {
+       
+       margin-left: 0;
+   }
+   #footer .applogo img{
+    margin-top: 30px;
+    margin-right: 40px;
+   
+   width: 80px;
+   height: 80px;
+}
+}
+@media (max-width:767px) and (min-width:587px) {
+    #header .logo h1 {
+        font-size: 40px;
+    }
+    .registration {
+   
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-left: 0;
+        margin-bottom: 60px;
+        
+    }
+    .app-img{
+        display: none;
+    }
+    #header .hc h1 {
+        font-size: 30px;
+    }
+    #header .btn1 button {
+        font-size: 10px;
+    }
+    #footer .applogo img{
+        margin-top: 30px;
+       width: 100px;
+       height: 100px;
+    }
+}
+@media (max-width:991px) and (min-width:768px) {
+    #header .logo h1 {
+        font-size: 50px;
+        padding-top: 20px;
+    }
+    .registration {
+   
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-left: 0;
+        margin-bottom: 60px;
+        
+    }
+    .app-img{
+        display: none;
+    }
+    #footer .applogo img{
+        margin-top: 30px;
+        margin-right: 20px;
+       width: 100px;
+       height: 100px;
+    }
+
+}
